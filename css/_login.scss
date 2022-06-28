@@ -1,0 +1,52 @@
+$first-font-family : 'Lato', sans-serif;
+$second-font-family : 'Quicksand', sans-serif;
+.formdiv 
+{
+    background-color: rgba(17, 25, 40, 0.43);
+    backdrop-filter: blur(2px) saturate(200%);
+    border-radius: 1rem;
+    padding: 10px;
+    text-align: center;width: 40%;
+    margin: 5rem auto 0;
+    h1{
+color: white;
+font-weight: bolder;
+font-family: $first-font-family;
+    }
+    button
+{
+letter-spacing: 3px;
+width: 90%;
+background-color: #166FE5;
+border: 1px solid #166FE5;
+color: #fff;
+padding: 15px 0;
+margin-top: 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+input
+{
+    margin-top: 15px;
+    display: block;
+margin: auto;
+margin-top: 10px;
+border-radius: 10px;
+border: 3px solid #fff;
+padding: 10px 0 10px 15px;
+width: 90%;
+}
+span
+{
+    color: rgb(184, 184, 184);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover
+{
+    background-color: rgb(0, 68, 255);
+    transition: ease 0.9s;
+}
+}
+
+
